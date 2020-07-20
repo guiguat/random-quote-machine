@@ -31,7 +31,7 @@ function App() {
       <div id="quote-box">
         <div className="quote-text">
           <p id="text" style={{color: `${color}`}}>
-            {text}
+            "{text}"
           </p>
         </div>
         <div className="quote-author">
