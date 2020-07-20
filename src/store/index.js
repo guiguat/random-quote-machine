@@ -4,7 +4,7 @@ const INITIAL_STATE = {
     quotes:[],
     data:{
         author: 'Guilherme Guatura',
-        text: "Please click on \"new quote\"",
+        text: " Please click on \"Next quote\" ",
         color: '#000'
     }
 }
