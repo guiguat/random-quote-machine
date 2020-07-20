@@ -31,7 +31,7 @@ function App() {
       <div id="quote-box">
         <div className="quote-text">
           <p id="text" style={{color: `${color}`}}>
-            "{text}"
+            " {text} "
           </p>
         </div>
         <div className="quote-author">
@@ -47,7 +47,7 @@ function App() {
             style={{backgroundColor: `${color}`}} 
             className="btn"
             onClick={handleSubmit}
-          >New quote</button>
+          >Next quote</button>
         </div>
       </div>
       <p id="footer">by <a href="https://github.com/guiguat">guiguat</a></p>
