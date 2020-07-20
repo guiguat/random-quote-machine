@@ -5,6 +5,7 @@ This project is a simple random quote generator and was bootstrapped with [Creat
 A preview of this project is available in [Here](https://rand-quote-machine-guiguat.netlify.app/).
 the concept is simple, you click in the "Next quote" button and it will render a new quote for you.
 If you like the quote, click in the twitter icon button to make a tweet about this quote, have fun.
+
 ![image](./git_assets/preview.png)
 
 
