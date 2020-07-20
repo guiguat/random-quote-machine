@@ -31,6 +31,10 @@ code {
   font-size: 1em;
   text-align: right;
 }
+
+#text, #author, .btn{
+  transition: ease 1.5s;
+}
 .quote-author{
   display: flex;
   justify-content: flex-end;
