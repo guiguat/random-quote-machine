@@ -19,7 +19,7 @@ code {
   margin: auto auto 0 auto;
   padding: 2rem;
   flex-direction: column;
-  width: 450px;
+  max-width: 450px;
   border-radius: 5px;
 }
 #text{
@@ -33,7 +33,7 @@ code {
 }
 
 #text, #author, .btn{
-  transition: ease 1.5s;
+  transition: ease 1s;
 }
 .quote-author{
   display: flex;
@@ -71,4 +71,10 @@ body > #root > div {
   display: flex;
   height: 100%;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 550px){
+  #quote-box{
+    margin: auto 2rem 0rem 2rem;
+  }
 }
